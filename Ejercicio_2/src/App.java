@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        //Primera parte (Aqui debes imgresar un numero entero y te dira tu resultado)
+        //Primera parte 
         int numeroIf = -3;
         if(numeroIf == 0){
             System.out.println("El numeroIf es 0: "+ numeroIf);
