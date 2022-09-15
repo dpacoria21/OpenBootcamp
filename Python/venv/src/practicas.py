@@ -49,7 +49,7 @@ print(num1)
 
 dibujos = ['disney', 'knd', 'victorius', 'dbz']
 
-# sorted() para ordenar listas
+# sorted() para ordenar listas, el reverser es para definir si va a ordenar < o >
 print(sorted(dibujos, reverse=True))
 
 # Obtener la longitud de una lista
@@ -65,4 +65,8 @@ for i in range(10):
 
 # Inicia en el primer parametro i=1 ---> i<10
 for i in range(1,10):
+    print(i)
+
+# el tercer parametro es el aumentador
+for i in range(1,10,2):
     print(i)
