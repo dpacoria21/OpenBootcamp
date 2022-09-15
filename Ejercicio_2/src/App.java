@@ -1,23 +1,20 @@
-import java.util.*;
 public class App {
     public static void main(String[] args) throws Exception {
         //Primera parte (Aqui debes imgresar un numero entero y te dira tu resultado)
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Ingrese un numeroIf: ");
-        int numeroIf = scan.nextInt();
+        int numeroIf = -3;
         if(numeroIf == 0){
-            System.out.println("El numeroIf es 0");
+            System.out.println("El numeroIf es 0: "+ numeroIf);
         }else if(numeroIf > 0){
-            System.out.println("El numeroIf es positivo");
+            System.out.println("El numeroIf es positivo: "+ numeroIf);
         }else{
-            System.out.println("El numeroIf es negativo");
+            System.out.println("El numeroIf es negativo: "+ numeroIf);
         }
         System.out.println();
         // Segunda Parte
         int numeroWhile = -5;
         while(numeroWhile < 3) {
-            System.out.println(numeroWhile);
             numeroWhile++;
+            System.out.println(numeroWhile);
         }
         System.out.println();
 
