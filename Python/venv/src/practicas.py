@@ -1,3 +1,4 @@
+import math
 a=5
 print(id(a))
 a = 6
@@ -45,3 +46,23 @@ num1 = 5
 num2 = 2
 num1 **= num2
 print(num1)
+
+dibujos = ['disney', 'knd', 'victorius', 'dbz']
+
+# sorted() para ordenar listas
+print(sorted(dibujos, reverse=True))
+
+# Obtener la longitud de una lista
+print("Esta es la longitud de la lista: ",len(dibujos))
+
+for dibujo in dibujos:
+    print(dibujo)
+
+# Inicia siempre desde el i=0 ---> i<10
+for i in range(10):
+    print(i)
+
+
+# Inicia en el primer parametro i=1 ---> i<10
+for i in range(1,10):
+    print(i)
