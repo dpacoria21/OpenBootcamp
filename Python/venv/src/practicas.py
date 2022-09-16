@@ -70,3 +70,21 @@ for i in range(1,10):
 # el tercer parametro es el aumentador
 for i in range(1,10,2):
     print(i)
+
+# La funcion debe estar declarada antes
+def miFunction(a, b):
+    return a+b
+# Con el *args podemos tener muchos parametros en caso no sean 
+# especificados y los convertira en una lista/tupla
+def suma(*args):
+    resultado = 0
+    for arg in args:
+        resultado += arg
+    print(resultado)
+print(miFunction(5,10))
+
+suma(1,2,3,4)
+
+#Lambda puede tener parametros pero solo una expresion
+potencia = lambda a, b: a**b
+print(potencia(5,3))
